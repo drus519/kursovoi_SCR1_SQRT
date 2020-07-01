@@ -5465,7 +5465,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 	vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[0U] 
 	    = (2U | (0xfffffff0U & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[0U]));
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_cmd = 0U;
     if ((1U & (~ (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
 		  >> 8U)))) {
@@ -5587,7 +5587,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__core_dmem_width 
 	= vlTOPp->__Vtable4_scr1_top_tb_ahb__DOT__i_top__DOT__core_dmem_width
 	[vlTOPp->__Vtableidx4];
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd = 0U;
     if ((0x100U & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U])) {
 	if ((1U & (~ (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
@@ -7289,7 +7289,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__csr2tdu_wdata_qlfy 
 	= (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__exu2csr_w_data 
 	   & VL_NEGATE_I((IData)((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__core_rst_n_qlfy))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:367
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:408
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_3 = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	if (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)) 
@@ -7302,7 +7302,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 						    << 1U)));
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:318
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:326
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_op1 
 	= vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_op1;
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_res = 0U;
@@ -7495,7 +7495,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 	   | (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_op1 
 	      >= ((1U | (0xfffeU & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_res)) 
 		  * (1U | (0xfffeU & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_res)))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:303
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:311
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op1 
 	= vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_op1;
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op2 
@@ -7508,7 +7508,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 	        ? VL_SHIFTRS_III(32,32,5, vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op1, (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op2))
 	        : (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op1 
 		   << (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op2))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:346
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:387
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op1 = VL_ULL(0);
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op2 = VL_ULL(0);
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_res = VL_ULL(0);
@@ -7529,7 +7529,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 	    = VL_MULS_QQQ(64,64,64, VL_EXTENDS_QQ(64,33, vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op1), 
 			  VL_EXTENDS_QQ(64,33, vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op2));
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:414
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:455
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_req = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_req 
@@ -7537,7 +7537,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 		& (0U != vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_op2)) 
 	       & (0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)));
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:185
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:193
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum1_sub 
 	= (4U != (0x1fU & (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
 			   >> 4U)));
@@ -7594,7 +7594,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 							    (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum1_res 
 							     >> 0x1fU))) 
 						 << 1U)))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:246
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:254
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum2_sub = 0U;
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum2_op1 
 	= (VL_ULL(0x1ffffffff) & VL_EXTENDS_QI(33,32, 
@@ -8114,7 +8114,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 		   & (~ vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__csr2tdu_wdata_qlfy));
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_cmp = 0U;
     if ((1U & (~ (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
 		  >> 8U)))) {
@@ -8146,14 +8146,14 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 	    }
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:414
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:455
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_rdy = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_rdy 
 	    = ((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum1_flags) 
 	       & (1U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)));
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:367
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:408
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_2 = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	if (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)) 
@@ -8237,7 +8237,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 	    }
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:367
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:408
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_1_c = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	if (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)) 
@@ -8247,7 +8247,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 				 >> 0x20U)));
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:367
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:408
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_1 = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	if (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)) 
@@ -8369,7 +8369,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 	= ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_dmem_router__DOT__port_sel))
 	    ? (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum2_res)
 	    : 0U);
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_res = 0U;
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_cmd 
 	= ((((0x11U == (0x1fU & (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
@@ -8475,7 +8475,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 	    }
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:414
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:455
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__corr_req 
 	= ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd)) 
 	   & (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__div_cmd)) 
@@ -8769,7 +8769,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
 						 & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__timer_dmem_addr))))) 
 	   & (5U >= (7U & (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__timer_dmem_addr 
 			   >> 2U))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:155
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:157
     vlTOPp->__Vtableidx2 = (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__corr_req) 
 			     << 4U) | (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_rdy) 
 					<< 3U) | (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_req) 
@@ -8778,7 +8778,7 @@ void Vscr1_top_tb_ahb::_settle__TOP__1(Vscr1_top_tb_ahb__Syms* __restrict vlSyms
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__next_state 
 	= vlTOPp->__Vtable2_scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__next_state
 	[vlTOPp->__Vtableidx2];
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_rdy = 1U;
     if ((0x100U & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U])) {
 	if ((1U & (~ (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
@@ -10503,7 +10503,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_sequent__TOP__10(Vscr1_top_tb_ahb__Syms* _
 		      << 0x20U));
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:551
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:593
     if (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_vd) 
 	 & (~ (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_rdy)))) {
 	if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
@@ -10511,7 +10511,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_sequent__TOP__10(Vscr1_top_tb_ahb__Syms* _
 		= (0x1fU & (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum1_res));
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:551
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:593
     if (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_vd) 
 	 & (~ (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_rdy)))) {
 	if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
@@ -10519,7 +10519,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_sequent__TOP__10(Vscr1_top_tb_ahb__Syms* _
 		= vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_3;
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:551
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:593
     if (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_vd) 
 	 & (~ (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_rdy)))) {
 	if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
@@ -10527,7 +10527,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_sequent__TOP__10(Vscr1_top_tb_ahb__Syms* _
 		= vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_1_c;
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:551
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:593
     if (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_vd) 
 	 & (~ (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_rdy)))) {
 	if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
@@ -10535,7 +10535,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_sequent__TOP__10(Vscr1_top_tb_ahb__Syms* _
 		= vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_1;
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:551
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:593
     if (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_vd) 
 	 & (~ (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_rdy)))) {
 	if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
@@ -15152,7 +15152,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_sequent__TOP__17(Vscr1_top_tb_ahb__Syms* _
     } else {
 	vlTOPp->__Vdly__scr1_top_tb_ahb__DOT__i_top__DOT__i_dmem_ahb__DOT__fsm = 0U;
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:142
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:144
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state 
 	= ((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_scu__DOT__i_core_rstn_buf_qlfy_cell__DOT__reset_n_lucky_ff)
 	    ? ((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_vd)
@@ -21322,7 +21322,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_multiclk__TOP__45(Vscr1_top_tb_ahb__Syms* 
 	vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[0U] 
 	    = (2U | (0xfffffff0U & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[0U]));
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_cmd = 0U;
     if ((1U & (~ (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
 		  >> 8U)))) {
@@ -21444,7 +21444,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_multiclk__TOP__45(Vscr1_top_tb_ahb__Syms* 
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__core_dmem_width 
 	= vlTOPp->__Vtable4_scr1_top_tb_ahb__DOT__i_top__DOT__core_dmem_width
 	[vlTOPp->__Vtableidx4];
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd = 0U;
     if ((0x100U & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U])) {
 	if ((1U & (~ (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
@@ -24259,7 +24259,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__csr2tdu_wdata_qlfy 
 	= (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__exu2csr_w_data 
 	   & VL_NEGATE_I((IData)((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__core_rst_n_qlfy))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:367
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:408
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_3 = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	if (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)) 
@@ -24272,7 +24272,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 						    << 1U)));
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:318
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:326
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_op1 
 	= vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_op1;
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_res = 0U;
@@ -24465,7 +24465,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 	   | (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_op1 
 	      >= ((1U | (0xfffeU & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_res)) 
 		  * (1U | (0xfffeU & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_res)))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:303
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:311
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op1 
 	= vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_op1;
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op2 
@@ -24478,7 +24478,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 	        ? VL_SHIFTRS_III(32,32,5, vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op1, (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op2))
 	        : (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op1 
 		   << (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_op2))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:346
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:387
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op1 = VL_ULL(0);
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op2 = VL_ULL(0);
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_res = VL_ULL(0);
@@ -24499,7 +24499,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 	    = VL_MULS_QQQ(64,64,64, VL_EXTENDS_QQ(64,33, vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op1), 
 			  VL_EXTENDS_QQ(64,33, vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op2));
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:414
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:455
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_req = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_req 
@@ -24507,7 +24507,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 		& (0U != vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_op2)) 
 	       & (0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)));
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:185
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:193
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum1_sub 
 	= (4U != (0x1fU & (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
 			   >> 4U)));
@@ -24564,7 +24564,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 							    (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum1_res 
 							     >> 0x1fU))) 
 						 << 1U)))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:246
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:254
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum2_sub = 0U;
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum2_op1 
 	= (VL_ULL(0x1ffffffff) & VL_EXTENDS_QI(33,32, 
@@ -25084,7 +25084,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 		   & (~ vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__csr2tdu_wdata_qlfy));
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_cmp = 0U;
     if ((1U & (~ (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
 		  >> 8U)))) {
@@ -25116,14 +25116,14 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 	    }
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:414
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:455
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_rdy = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_rdy 
 	    = ((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum1_flags) 
 	       & (1U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)));
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:367
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:408
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_2 = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	if (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)) 
@@ -25207,7 +25207,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 	    }
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:367
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:408
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_1_c = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	if (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)) 
@@ -25217,7 +25217,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 				 >> 0x20U)));
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:367
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:408
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__res32_1 = 0U;
     if ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd))) {
 	if (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__curr_state)) 
@@ -25339,7 +25339,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 	= ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_dmem_router__DOT__port_sel))
 	    ? (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sum2_res)
 	    : 0U);
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_res = 0U;
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_cmd 
 	= ((((0x11U == (0x1fU & (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
@@ -25445,7 +25445,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 	    }
 	}
     }
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:414
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:455
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__corr_req 
 	= ((2U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mdu_cmd)) 
 	   & (((0U == (IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__div_cmd)) 
@@ -25739,7 +25739,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
 						 & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__timer_dmem_addr))))) 
 	   & (5U >= (7U & (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__timer_dmem_addr 
 			   >> 2U))));
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:155
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:157
     vlTOPp->__Vtableidx2 = (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__corr_req) 
 			     << 4U) | (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_rdy) 
 					<< 3U) | (((IData)(vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__iter_req) 
@@ -25748,7 +25748,7 @@ VL_INLINE_OPT void Vscr1_top_tb_ahb::_combo__TOP__63(Vscr1_top_tb_ahb__Syms* __r
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__next_state 
 	= vlTOPp->__Vtable2_scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__next_state
 	[vlTOPp->__Vtableidx2];
-    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:437
+    // ALWAYS at /home/oleg/Andrey/scr1/src/pipeline/scr1_pipe_ialu.sv:478
     vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__ialu_rdy = 1U;
     if ((0x100U & vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U])) {
 	if ((1U & (~ (vlTOPp->scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__idu2exu_cmd[2U] 
@@ -28481,6 +28481,8 @@ void Vscr1_top_tb_ahb::_ctor_var_reset() {
     scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__shft_res = VL_RAND_RESET_I(32);
     scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_op1 = VL_RAND_RESET_I(32);
     scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_res = VL_RAND_RESET_I(32);
+    scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_state = VL_RAND_RESET_I(2);
+    scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__sqrt_rdy = VL_RAND_RESET_I(1);
     scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op1 = VL_RAND_RESET_Q(33);
     scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_op2 = VL_RAND_RESET_Q(33);
     scr1_top_tb_ahb__DOT__i_top__DOT__i_core_top__DOT__i_pipe_top__DOT__i_pipe_exu__DOT__i_ialu__DOT__mul_res = VL_RAND_RESET_Q(64);

@@ -1,0 +1,89 @@
+
+### OTPRALIV CHISLO ffffffff = 4294967295 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 0000ffff =      65535 ### 
+
+### OTPRALIV CHISLO fffffffe = 4294967294 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 0000ffff =      65535 ### 
+
+### OTPRALIV CHISLO fffffffd = 4294967293 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 0000ffff =      65535 ### 
+
+### OTPRALIV CHISLO fffffffc = 4294967292 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 0000ffff =      65535 ### 
+
+### OTPRALIV CHISLO fffffffb = 4294967291 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 0000ffff =      65535 ### 
+
+### OTPRALIV CHISLO 00000000 =          0 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 00000000 =          0 ### 
+
+### OTPRALIV CHISLO 00000001 =          1 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 00000001 =          1 ### 
+
+### OTPRALIV CHISLO 00000002 =          2 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 00000001 =          1 ### 
+
+### OTPRALIV CHISLO 00000003 =          3 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 00000001 =          1 ### 
+
+### OTPRALIV CHISLO 00000004 =          4 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 00000002 =          2 ### 
+
+### OTPRALIV CHISLO 000000a9 =        169 ### 
+
+### OTPRALIV START ###
+
+### PRO4ITAL OTVET ###
+
+### RES = 0000000d =         13 ### 
+
